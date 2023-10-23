@@ -4,6 +4,15 @@
 
 <img width="434" alt="image" src="https://github.com/JosT4r/PageOffice_FileDownload/assets/104313845/32eebafd-c395-4db0-9848-562d906fa315">
 
+根据请求url（poserver.zz?pgop=opendiskdoc&id=）定位到该文件，其中f函数对id参数值进行解密。
+
+<img width="1274" alt="image" src="https://github.com/JosT4r/PageOffice_FileDownload/assets/104313845/745c9c59-5292-418a-9af8-27dbc26c761d">
+
+跟进f函数能看到是解密过程。
+
+<img width="589" alt="image" src="https://github.com/JosT4r/PageOffice_FileDownload/assets/104313845/399fbb9a-375b-4bb2-85c8-71894603e306">
+
+
 ## package
 ```
 javac Main.java
