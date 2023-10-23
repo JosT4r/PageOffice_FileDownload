@@ -1,6 +1,8 @@
 # PageOffice_FileDownload
 ## 分析
-某次蓝队防守时发现流量告警，读取了敏感文件。根据页面回显的版本从github找到相应jar进行审计。
+某次蓝队防守时发现流量告警，读取了服务器敏感文件。客户要求解密请求字符串，根据页面回显的版本从github找到相应jar进行审计。
+<img width="434" alt="image" src="https://github.com/JosT4r/PageOffice_FileDownload/assets/104313845/32eebafd-c395-4db0-9848-562d906fa315">
+
 ## package
 ```
 javac Main.java
